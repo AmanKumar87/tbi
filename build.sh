@@ -17,9 +17,9 @@ echo "Weights directory created."
 # 3. Download model weights (REPLACE THESE URLs WITH YOUR OWN)
 echo "Downloading model weights..."
 
-curl -L "YOUR_DIRECT_DOWNLOAD_LINK_FOR_hybrid_cnn_model.pth" -o "backend/ml/weights/hybrid_cnn_model.pth"
-curl -L "YOUR_DIRECT_DOWNLOAD_LINK_FOR_vision_transformer_model.pth" -o "backend/ml/weights/vision_transformer_model.pth"
-curl -L "YOUR_DIRECT_DOWNLOAD_LINK_FOR_high_accuracy_hybrid_model.pth" -o "backend/ml/weights/high_accuracy_hybrid_model.pth"
+#curl -L "YOUR_DIRECT_DOWNLOAD_LINK_FOR_hybrid_cnn_model.pth" -o "backend/ml/weights/hybrid_cnn_model.pth"
+#curl -L "YOUR_DIRECT_DOWNLOAD_LINK_FOR_vision_transformer_model.pth" -o "backend/ml/weights/vision_transformer_model.pth"
+#curl -L "YOUR_DIRECT_DOWNLOAD_LINK_FOR_high_accuracy_hybrid_model.pth" -o "backend/ml/weights/high_accuracy_hybrid_model.pth"
 
 echo "Model weights downloaded."
 echo "Build finished successfully."
